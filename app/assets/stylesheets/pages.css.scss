@@ -1,0 +1,151 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+$body-bg: #fff;
+$link-color: #000;
+
+$navbar-default-bg: #fff;
+$navbar-default-link-color: #23b1a5;
+$navbar-default-link-active-color: #fff;
+$navbar-default-link-active-bg: #23b1a5;
+$navbar-default-link-hover-color: #1b867d;
+
+$navbar-border-radius: none;
+$navbar-height: 96px;
+
+$navbar-default-toggle-icon-bar-bg: #23b1a5;
+$navbar-default-toggle-hover-bg: #fff;
+$navbar-default-toggle-border-color: #fff;
+
+
+
+$grid-float-breakpoint:480px;
+
+$panel-default-heading-bg: whitesmoke;
+$panel-default-text: #000;
+
+
+$btn-default-bg: #23b1a5;
+$btn-default-color: #fff;
+$btn-default-border: #23b1a5;
+
+$jumbotron-bg: whitesmoke;
+
+html,body { 
+   font-family: 'Lato', sans-serif !important;
+   width: auto !important;
+   overflow-x: hidden !important;
+   padding-top: 56px;
+
+}
+
+html {
+ position: relative;
+ min-height: 100%;
+}
+body {
+ /* Margin bottom by footer height */
+ margin-bottom: 50px !important;
+}
+
+.devise {
+ h1 {
+   font-size:63px;
+ }
+}
+
+.btn-home {
+ font-size: 30px !important;
+ border-radius: 6px;
+ width:300px;
+ height:60px !important;
+ padding-top:10px !important;
+}
+
+.navbar {
+   position: relative;
+}
+.navbar-brand {
+   position: absolute;
+   left: 50%;
+   margin-left: -50px !important;  /* 50% of your logo width */
+   display: block;
+   top:-9px;
+}
+
+@media (min-width: 480px) {
+ .navbar-nav.navbar-right:last-child {
+   margin-top:-10px !important;
+   margin-right: 20px !important;
+ }
+}
+
+.navbar-nav > li > a {
+   font-size:24px;
+}
+
+.navbar-default {
+  border: none !important;
+  padding-bottom: 30px !important;
+  padding-top: 40px !important;
+}
+
+/* Footer */
+.footer {
+ height:50px;
+ background-color: whitesmoke;
+ text-align: center;
+ padding-top:15px;
+ padding-left:20px;
+ padding-right:20px;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
+/* Jumbotron */
+.jumbotron {
+ margin-bottom:0px !important;
+}
+.jumbo-header {
+ color:#000 !important;
+ background-color: #fff !important;
+}
+.jumbotron h1 {
+ font-size:100px !important;
+}
+.jumbotron h2 {
+ font-size:48px !important;
+}
+
+/* Phone Number Link */
+a.number {
+   color: #ffcf06;
+   text-shadow: 1px 1px 0px #f8981d;
+   font-weight: bold;
+}
+a.number:hover {
+   color: #f8981d;
+   text-decoration: none;
+}
+
+/* Panels */
+.panel-margin {
+ margin-top:30px;
+}
+.panel-scroll {
+ max-height: 400px;
+ overflow-y: scroll;
+}
+
+/* Alert */
+.space {
+ margin-top:25px;
+}
+
+span.glyphicon-earphone {
+   font-size: 4em;
+   color:#fff;
+}
